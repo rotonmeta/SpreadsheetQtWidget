@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SpreadsheetQtWidget.dir/main.cpp.o  -o SpreadsheetQtWidget 
