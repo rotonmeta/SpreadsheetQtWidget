@@ -143,6 +143,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:UNINITIALIZED=/home/osboxes/Qt/5.12.1/gcc_64/lib/cmake/
+
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
@@ -216,6 +219,15 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/home/osboxes/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/home/osboxes/Qt/5.12.1/gcc_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/home/osboxes/Qt/5.12.1/gcc_64/lib/cmake/Qt5Widgets
 
 //Value Computed by CMake
 SpreadsheetQtWidget_BINARY_DIR:STATIC=/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug

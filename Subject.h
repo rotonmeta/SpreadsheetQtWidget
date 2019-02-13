@@ -13,7 +13,6 @@ public:
     virtual void unsubscribe(Observer *observer) = 0;
     virtual void notify() = 0;
 
-    virtual ~Subject() {};
 
 };
 #endif //SPREADSHEETQTWIDGET_SUBJECT_H

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SpreadsheetQtWidget.dir/main.cpp.o"
+  "CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.o"
   "SpreadsheetQtWidget.pdb"
   "SpreadsheetQtWidget"
 )

@@ -1,4 +1,4 @@
-/home/osboxes/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/osboxes/CLionProjects/SpreadsheetQtWidget
+/home/osboxes/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/home/osboxes/Qt/5.12.1/gcc_64/lib/cmake/ -G "CodeBlocks - Unix Makefiles" /home/osboxes/CLionProjects/SpreadsheetQtWidget
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug

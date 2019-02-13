@@ -123,6 +123,33 @@ SpreadsheetQtWidget/fast:
 	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/build
 .PHONY : SpreadsheetQtWidget/fast
 
+Cell.o: Cell.cpp.o
+
+.PHONY : Cell.o
+
+# target to build an object file
+Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.o
+.PHONY : Cell.cpp.o
+
+Cell.i: Cell.cpp.i
+
+.PHONY : Cell.i
+
+# target to preprocess a source file
+Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.i
+.PHONY : Cell.cpp.i
+
+Cell.s: Cell.cpp.s
+
+.PHONY : Cell.s
+
+# target to generate assembly for a file
+Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.s
+.PHONY : Cell.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SpreadsheetQtWidget"
 	@echo "... edit_cache"
+	@echo "... Cell.o"
+	@echo "... Cell.i"
+	@echo "... Cell.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
