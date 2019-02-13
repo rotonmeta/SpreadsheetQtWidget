@@ -29,3 +29,4 @@ void Cell::subscribe(Observer *observer) {
 void Cell::unsubscribe(Observer *observer) {
     observers.remove(observer);
 }
+

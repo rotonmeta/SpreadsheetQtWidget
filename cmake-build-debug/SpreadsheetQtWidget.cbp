@@ -109,6 +109,12 @@
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Observer.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.cpp">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.h">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Subject.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>

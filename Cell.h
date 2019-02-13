@@ -18,6 +18,7 @@ public:
     void subscribe(Observer *observer) override;
     void unsubscribe(Observer *observer) override;
     void notify() override;
+    //~Cell() override;
 
 private:
     list<Observer*> observers;
