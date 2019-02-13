@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Cell.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.o"
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Operation.cpp.o"
+  "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.o"
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/main.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

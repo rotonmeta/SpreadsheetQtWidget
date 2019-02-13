@@ -3,8 +3,10 @@
 //
 
 #include "Cell.h"
-
-Cell::Cell(float value) : value(value){}
+Cell::Cell(float value) : value(value){
+    QString vStr = QString::number(this->value);
+    this->setText(vStr);
+}
 
 void Cell::setValue(float value) {
     this->value = value;

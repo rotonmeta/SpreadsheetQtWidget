@@ -12,7 +12,7 @@ using namespace std;
 
 class Operation : public Observer {
 public:
-    explicit Operation(Cell *cell) : opCell(cell), value(0){}
+    explicit Operation(Cell *opCell) : opCell(opCell){}
     void addCell(Cell *cell);
     void removeCell(Cell *cell);
     virtual void doOp() = 0;
@@ -20,7 +20,6 @@ public:
     void update() override;
 
 protected:
-    float value;
     list<Cell*> cells;
     Cell* opCell;
 

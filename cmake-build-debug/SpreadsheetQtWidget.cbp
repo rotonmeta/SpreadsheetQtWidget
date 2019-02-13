@@ -118,6 +118,12 @@
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Subject.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.cpp">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.h">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/main.cpp">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>

@@ -177,6 +177,33 @@ Operation.cpp.s:
 	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Operation.cpp.s
 .PHONY : Operation.cpp.s
 
+Sum.o: Sum.cpp.o
+
+.PHONY : Sum.o
+
+# target to build an object file
+Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.o
+.PHONY : Sum.cpp.o
+
+Sum.i: Sum.cpp.i
+
+.PHONY : Sum.i
+
+# target to preprocess a source file
+Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.i
+.PHONY : Sum.cpp.i
+
+Sum.s: Sum.cpp.s
+
+.PHONY : Sum.s
+
+# target to generate assembly for a file
+Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.s
+.PHONY : Sum.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Operation.o"
 	@echo "... Operation.i"
 	@echo "... Operation.s"
+	@echo "... Sum.o"
+	@echo "... Sum.i"
+	@echo "... Sum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
