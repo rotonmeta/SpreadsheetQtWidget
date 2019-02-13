@@ -3,4 +3,4 @@ project(SpreadsheetQtWidget)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SpreadsheetQtWidget main.cpp)
+add_executable(SpreadsheetQtWidget main.cpp Subject.h Observer.h)
