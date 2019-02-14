@@ -10,5 +10,5 @@ find_package(Qt5Core REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Gui REQUIRED)
 
-add_executable(SpreadsheetQtWidget main.cpp Subject.h Observer.h Cell.cpp Cell.h Operation.cpp Operation.h Sum.cpp Sum.h Minimum.cpp Minimum.h)
+add_executable(SpreadsheetQtWidget main.cpp Subject.h Observer.h Cell.cpp Cell.h Operation.cpp Operation.h Sum.cpp Sum.h Minimum.cpp Minimum.h Maximum.cpp Maximum.h)
 target_link_libraries(SpreadsheetQtWidget Qt5::Widgets)
