@@ -7,7 +7,7 @@
 void Mean::doOp() {
     float sum = 0;
     for (auto cell: cells) {
-        sum += cell->getData()
+        sum += cell->getData();
     }
     this->opCell->setData(0, sum/cells.size());
 }

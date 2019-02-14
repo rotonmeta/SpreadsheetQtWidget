@@ -19,6 +19,7 @@ public:
     void unsubscribe(Observer *observer) override;
     void notify() override;
 
+
 private:
     list<Observer*> observers;
 };

@@ -4,7 +4,7 @@
 
 #include "Cell.h"
 Cell::Cell(float value){
-    this->setData(0, value);
+    QTableWidgetItem::setData(0, value);
 }
 
 
