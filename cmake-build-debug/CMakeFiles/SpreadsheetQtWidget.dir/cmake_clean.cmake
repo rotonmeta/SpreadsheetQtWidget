@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.o"
   "CMakeFiles/SpreadsheetQtWidget.dir/Minimum.cpp.o"
   "CMakeFiles/SpreadsheetQtWidget.dir/Maximum.cpp.o"
+  "CMakeFiles/SpreadsheetQtWidget.dir/Mean.cpp.o"
   "SpreadsheetQtWidget.pdb"
   "SpreadsheetQtWidget"
 )

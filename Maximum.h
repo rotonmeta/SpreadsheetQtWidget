@@ -8,6 +8,7 @@
 #include "Operation.h"
 
 class Maximum : public Operation {
+public:
     explicit Maximum(Cell *opCell) : Operation(opCell){}
     void doOp() override;
 

@@ -177,6 +177,33 @@ Maximum.cpp.s:
 	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Maximum.cpp.s
 .PHONY : Maximum.cpp.s
 
+Mean.o: Mean.cpp.o
+
+.PHONY : Mean.o
+
+# target to build an object file
+Mean.cpp.o:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Mean.cpp.o
+.PHONY : Mean.cpp.o
+
+Mean.i: Mean.cpp.i
+
+.PHONY : Mean.i
+
+# target to preprocess a source file
+Mean.cpp.i:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Mean.cpp.i
+.PHONY : Mean.cpp.i
+
+Mean.s: Mean.cpp.s
+
+.PHONY : Mean.s
+
+# target to generate assembly for a file
+Mean.cpp.s:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Mean.cpp.s
+.PHONY : Mean.cpp.s
+
 Minimum.o: Minimum.cpp.o
 
 .PHONY : Minimum.o
@@ -300,6 +327,9 @@ help:
 	@echo "... Maximum.o"
 	@echo "... Maximum.i"
 	@echo "... Maximum.s"
+	@echo "... Mean.o"
+	@echo "... Mean.i"
+	@echo "... Mean.s"
 	@echo "... Minimum.o"
 	@echo "... Minimum.i"
 	@echo "... Minimum.s"

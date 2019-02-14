@@ -112,6 +112,12 @@
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Maximum.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Mean.cpp">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Mean.h">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.cpp">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
