@@ -106,6 +106,12 @@
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Cell.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.cpp">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.h">
+			<Option target="SpreadsheetQtWidget"/>
+		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Observer.h">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>

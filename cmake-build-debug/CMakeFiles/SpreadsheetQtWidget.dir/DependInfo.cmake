@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Cell.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.o"
+  "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Minimum.cpp.o"
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Operation.cpp.o"
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/Sum.cpp.o"
   "/home/osboxes/CLionProjects/SpreadsheetQtWidget/main.cpp" "/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/CMakeFiles/SpreadsheetQtWidget.dir/main.cpp.o"

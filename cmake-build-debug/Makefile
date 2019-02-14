@@ -150,6 +150,33 @@ Cell.cpp.s:
 	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Cell.cpp.s
 .PHONY : Cell.cpp.s
 
+Minimum.o: Minimum.cpp.o
+
+.PHONY : Minimum.o
+
+# target to build an object file
+Minimum.cpp.o:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Minimum.cpp.o
+.PHONY : Minimum.cpp.o
+
+Minimum.i: Minimum.cpp.i
+
+.PHONY : Minimum.i
+
+# target to preprocess a source file
+Minimum.cpp.i:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Minimum.cpp.i
+.PHONY : Minimum.cpp.i
+
+Minimum.s: Minimum.cpp.s
+
+.PHONY : Minimum.s
+
+# target to generate assembly for a file
+Minimum.cpp.s:
+	$(MAKE) -f CMakeFiles/SpreadsheetQtWidget.dir/build.make CMakeFiles/SpreadsheetQtWidget.dir/Minimum.cpp.s
+.PHONY : Minimum.cpp.s
+
 Operation.o: Operation.cpp.o
 
 .PHONY : Operation.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"
+	@echo "... Minimum.o"
+	@echo "... Minimum.i"
+	@echo "... Minimum.s"
 	@echo "... Operation.o"
 	@echo "... Operation.i"
 	@echo "... Operation.s"
