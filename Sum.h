@@ -5,7 +5,7 @@
 #ifndef SPREADSHEETQTWIDGET_SUM_H
 #define SPREADSHEETQTWIDGET_SUM_H
 
-#import "Operation.h"
+#include "Operation.h"
 
 using namespace std;
 
@@ -13,7 +13,6 @@ class Sum : public Operation{
 public:
     explicit Sum(Cell *opCell) : Operation(opCell) {}
     void doOp() override;
-private:
 
 };
 

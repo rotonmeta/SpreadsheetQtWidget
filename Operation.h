@@ -19,6 +19,8 @@ public:
 
     void update() override;
 
+    ~Operation() override;
+
 protected:
     list<Cell*> cells;
     Cell* opCell;

@@ -18,3 +18,8 @@ void Operation::removeCell(Cell *cell) {
 void Operation::update() {
     doOp();
 }
+
+Operation::~Operation(){
+    for (auto cell: cells)
+        (*cell).unsubscribe(this);
+}

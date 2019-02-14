@@ -3,20 +3,18 @@
 //
 
 #include "Cell.h"
-Cell::Cell(float value) : value(value){
-    QString vStr = QString::number(this->value);
-    this->setText(vStr);
+Cell::Cell(float value){
+    this->setData(0, value);
 }
 
-void Cell::setValue(float value) {
-    this->value = value;
-    QString vStr = QString::number(this->value);
-    this->setText(vStr);
+
+void Cell::setData(int role, const QVariant &value) {
+    QTableWidgetItem::setData(role, value);
     notify();
 }
 
-float Cell::getValue() {
-    return this->value;
+float Cell::getData() {
+    return QTableWidgetItem::data(0).toFloat();
 }
 
 void Cell::notify() {
@@ -31,4 +29,6 @@ void Cell::subscribe(Observer *observer) {
 void Cell::unsubscribe(Observer *observer) {
     observers.remove(observer);
 }
+
+
 

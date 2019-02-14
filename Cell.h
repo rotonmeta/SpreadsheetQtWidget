@@ -12,18 +12,15 @@ using namespace std;
 class Cell : public Subject, public QTableWidgetItem{
 public:
     explicit Cell(float value=0);
-    void setValue(float value);
-    float getValue();
+    void setData(int role, const QVariant &value) override;
+    float getData();
 
     void subscribe(Observer *observer) override;
     void unsubscribe(Observer *observer) override;
     void notify() override;
-    //~Cell() override;
 
 private:
     list<Observer*> observers;
-    float value;
-
 };
 
 

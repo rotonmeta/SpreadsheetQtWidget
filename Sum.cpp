@@ -7,6 +7,6 @@
 void Sum::doOp() {
     float v = 0;
     for (auto itr : cells)
-        v += itr->getValue();
-    this->opCell->setValue(v);
+        v += itr->getData();
+    this->opCell->setData(0, v);
 }
