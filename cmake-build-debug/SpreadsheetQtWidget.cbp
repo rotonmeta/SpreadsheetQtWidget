@@ -5,7 +5,7 @@
 		<Option title="SpreadsheetQtWidget"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\5.12.1\;CMake Files\..\..\Qt\5.12.1\gcc_64\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Gui\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\5.12.1\;CMake Files\..\..\Qt\5.12.1\gcc_64\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\Test\;CMake Files\Test\googletest\;CMake Files\Test\googletest\googlemock\;CMake Files\Test\googletest\googlemock\cmake\;CMake Files\Test\googletest\googletest\;CMake Files\Test\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
@@ -17,11 +17,21 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="install/strip">
 				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -89,79 +99,399 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="rebuild_cache">
 				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTest">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/RunTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtGui"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 RunTest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTest/fast">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/RunTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtGui"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/osboxes/Qt/5.12.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 RunTest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/include"/>
+					<Add directory="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/osboxes/CLionProjects/SpreadsheetQtWidget/cmake-build-debug/Test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Cell.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Cell.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Maximum.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Maximum.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Mean.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Mean.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Minimum.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Observer.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Operation.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Subject.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.cpp">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Sum.h">
 			<Option target="SpreadsheetQtWidget"/>
+			<Option target="RunTest"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/Tests.cpp">
+			<Option target="RunTest"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/main.cpp">
 			<Option target="SpreadsheetQtWidget"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Widgets\"/>
@@ -282,6 +612,51 @@
 		</Unit>
 		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/../../Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\googletest\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Test\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Test\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/osboxes/CLionProjects/SpreadsheetQtWidget/Test/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Test\googletest\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

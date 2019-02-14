@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
     table->setHorizontalHeaderLabels(QString("Values; SUM; MIN; MAX; MEAN").split(";"));
 
     auto *c1 = new Cell(45.99);
-    auto *c2 = new Cell(187);
+    auto *c2 = new Cell(87);
     auto *c3 = new Cell(1233.928);
 
     table->setItem(0, 0, c1);

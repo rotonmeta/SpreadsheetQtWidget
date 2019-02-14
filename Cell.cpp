@@ -7,7 +7,6 @@ Cell::Cell(float value){
     QTableWidgetItem::setData(0, value);
 }
 
-
 void Cell::setData(int role, const QVariant &value) {
     QTableWidgetItem::setData(role, value);
     notify();
