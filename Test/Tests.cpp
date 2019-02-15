@@ -4,6 +4,10 @@
 
 #include "gtest/gtest.h"
 #include "../Cell.h"
+#include "../Sum.h"
+#include "../Mean.h"
+#include "../Minimum.h"
+#include "../Maximum.h"
 
 //Test constructor of cell
 TEST(CellTest, constructor){
@@ -18,4 +22,66 @@ TEST(CellTest, setData){
     EXPECT_FLOAT_EQ(124.95, c.getData());
 }
 
-//Test
+//Test sum operation
+TEST(OperationTest, sumTest) {
+    Cell c;
+    Cell c1(12.3);
+    Cell c2(3);
+    Cell c3(9.99);
+
+    Sum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+    EXPECT_FLOAT_EQ(25.29, c.getData());
+
+}
+
+//Test Minimum operation
+TEST(OperationTest, minTest) {
+    Cell c;
+    Cell c1(2);
+    Cell c2(2.2);
+    Cell c3(1.9);
+
+    Minimum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+    EXPECT_FLOAT_EQ(1.9, c.getData());
+
+}
+
+//Test Maximum operation
+TEST(OperationTest, maxTest) {
+    Cell c;
+    Cell c1(160);
+    Cell c2(2);
+    Cell c3(95.8);
+
+    Maximum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+    EXPECT_EQ(160, c.getData());
+
+}
+
+//Test Mean operation
+TEST(OperationTest, meanTest) {
+    Cell c;
+    Cell c1(23);
+    Cell c2(28);
+    Cell c3(30);
+
+    Mean op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+    EXPECT_EQ(27, c.getData());
+
+}
