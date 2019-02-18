@@ -98,6 +98,7 @@ TEST(RuntimeTest, removeCellTest) {
     op.addCell(&c2);
     op.addCell(&c3);
     op.doOp();
+    EXPECT_FLOAT_EQ(25.29, c.getData());
     op.removeCell(&c3);
     EXPECT_FLOAT_EQ(15.3, c.getData());
 }
@@ -115,7 +116,7 @@ TEST(RuntimeTest, addCellTest) {
     op.addCell(&c2);
     op.addCell(&c3);
     op.doOp();
-
+    EXPECT_FLOAT_EQ(25.29, c.getData());
     op.addCell(&c4);
     EXPECT_FLOAT_EQ(30.69, c.getData());
 }
@@ -132,7 +133,7 @@ TEST(RuntimeTest, changeCellDataTest) {
     op.addCell(&c2);
     op.addCell(&c3);
     op.doOp();
-
+    EXPECT_FLOAT_EQ(25.29, c.getData());
     c3.setData(0, 6);
     EXPECT_FLOAT_EQ(21.3, c.getData());
 

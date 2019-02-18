@@ -14,6 +14,9 @@ void Operation::addCell(Cell *cell) {
 }
 
 void Operation::removeCell(Cell *cell) {
+    if (cell == this->opCell)
+        return;
+    
     this->cells.remove(cell);
     (*cell).unsubscribe(this);
     doOp();
