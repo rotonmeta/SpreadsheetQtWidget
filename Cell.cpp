@@ -3,6 +3,7 @@
 //
 
 #include "Cell.h"
+
 Cell::Cell(float value){
     QTableWidgetItem::setData(0, value);
 }

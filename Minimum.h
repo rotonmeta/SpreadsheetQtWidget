@@ -6,6 +6,7 @@
 #define SPREADSHEETQTWIDGET_MINIMUM_H
 
 #include "Operation.h"
+
 class Minimum : public Operation {
 public:
     explicit Minimum(Cell *opCell) : Operation(opCell){}
