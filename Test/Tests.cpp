@@ -85,3 +85,55 @@ TEST(OperationTest, meanTest) {
     EXPECT_EQ(27, c.getData());
 
 }
+
+//Test the operation result after removing a cell
+TEST(RuntimeTest, removeCellTest) {
+    Cell c;
+    Cell c1(12.3);
+    Cell c2(3);
+    Cell c3(9.99);
+
+    Sum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+    op.removeCell(&c3);
+    EXPECT_FLOAT_EQ(15.3, c.getData());
+}
+
+//Test the operation result after adding a cell
+TEST(RuntimeTest, addCellTest) {
+    Cell c;
+    Cell c1(12.3);
+    Cell c2(3);
+    Cell c3(9.99);
+    Cell c4(5.4);
+
+    Sum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+
+    op.addCell(&c4);
+    EXPECT_FLOAT_EQ(30.69, c.getData());
+}
+
+//Test the operation result after changing a cell value
+TEST(RuntimeTest, changeCellDataTest) {
+    Cell c;
+    Cell c1(12.3);
+    Cell c2(3);
+    Cell c3(9.99);
+
+    Sum op(&c);
+    op.addCell(&c1);
+    op.addCell(&c2);
+    op.addCell(&c3);
+    op.doOp();
+
+    c3.setData(0, 6);
+    EXPECT_FLOAT_EQ(21.3, c.getData());
+
+}
