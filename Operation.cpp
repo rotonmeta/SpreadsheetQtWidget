@@ -5,10 +5,8 @@
 #include "Operation.h"
 
 void Operation::addCell(Cell *cell) {
-    for (auto itr: cells) {
-        if (itr == cell)
+    if (cell == this->opCell)
             return;
-    }
 
     this->cells.push_back(cell);
     (*cell).subscribe(this);
